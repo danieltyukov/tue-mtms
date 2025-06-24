@@ -1,0 +1,7 @@
+axes:
+  - ["KEY_A", "KEY_D"]
+  - ["KEY_S", "KEY_W"]
+
+buttons:
+  - "KEY_SPACE"
+  - "KEY_Q"

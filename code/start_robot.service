@@ -1,0 +1,15 @@
+[Unit]
+Description=Start MTMS on Boot
+After=graphical-session.target
+
+[Service]
+ExecStart=/home/mtms/Github/MTMS/code/startup.sh
+StandardOutput=inherit
+StandardError=inherit
+Restart=on-failure
+Environment=XDG_RUNTIME_DIR=/run/user/1002
+Environment=DISPLAY=:0
+Environment=XAUTHORITY=/home/mtms/.Xauthority
+
+[Install]
+WantedBy=default.target
