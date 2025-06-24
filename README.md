@@ -2,6 +2,10 @@
   <img width="850" src="docs/img/logo.png">
 </p>
 
+<p align="center">
+  <img width="850" src="docs/img/IMG-20250603-WA0031.jpg">
+</p>
+
 ---
 
 ## 🚀 Project Overview
